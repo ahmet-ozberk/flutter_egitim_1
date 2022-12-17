@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_egitim_2/ders_2.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +14,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: Anasayfa());
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: ApiKullanimi(),
+    );
   }
 }
 
